@@ -1,0 +1,14 @@
+{
+  "main.css": "/timekeeper/static/css/main.c9207ea1.chunk.css",
+  "main.js": "/timekeeper/static/js/main.d44f9e52.chunk.js",
+  "main.js.map": "/timekeeper/static/js/main.d44f9e52.chunk.js.map",
+  "static/js/1.fa92c112.chunk.js": "/timekeeper/static/js/1.fa92c112.chunk.js",
+  "static/js/1.fa92c112.chunk.js.map": "/timekeeper/static/js/1.fa92c112.chunk.js.map",
+  "runtime~main.js": "/timekeeper/static/js/runtime~main.4909f190.js",
+  "runtime~main.js.map": "/timekeeper/static/js/runtime~main.4909f190.js.map",
+  "static/media/logo.svg": "/timekeeper/static/media/logo.5d5d9eef.svg",
+  "static/css/main.c9207ea1.chunk.css.map": "/timekeeper/static/css/main.c9207ea1.chunk.css.map",
+  "index.html": "/timekeeper/index.html",
+  "precache-manifest.52df30b151b9161728b78bb5df0f8aa7.js": "/timekeeper/precache-manifest.52df30b151b9161728b78bb5df0f8aa7.js",
+  "service-worker.js": "/timekeeper/service-worker.js"
+}
