@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/timekeeper/precache-manifest.52df30b151b9161728b78bb5df0f8aa7.js"
+  "/timekeeper/precache-manifest.c42780670f0d5501b0fb49f3363de394.js"
 );
 
 workbox.clientsClaim();
