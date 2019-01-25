@@ -21,7 +21,8 @@ export class TaskList extends Component {
   }
 
   handleKeyPress(target) {
-    if(target.charCode === 13) {
+    const ENTER_KEY_CODE = 13;
+    if(target.charCode === ENTER_KEY_CODE) {
        this.newTask(this.taskNameInput.value);   
     }
   }
@@ -51,7 +52,6 @@ export class TaskList extends Component {
   }
 
   render() {
-
     return (
       <Card style={{ width: '18rem' }}>
         <Card.Body>
