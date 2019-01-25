@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Button, Card, InputGroup, FormControl } from 'react-bootstrap';
+import { Task } from './Task';
 
 export class TaskList extends Component {
   constructor(props) {
@@ -38,7 +39,11 @@ export class TaskList extends Component {
 
     for (let i = 0; i < this.state.taskList.length; i++) {
       output.push(
-        <Task key={i} onClick={() => this.deleteTask(i)} taskName={this.state.taskList[i]} />
+        <Task
+          key={i}
+          onClick={() => this.deleteTask(i)}
+          taskName={this.state.taskList[i]}
+        />
       );
     }
 
@@ -60,33 +65,16 @@ export class TaskList extends Component {
               onKeyPress={(target) => this.handleKeyPress(target)}
             />
             <InputGroup.Append>
-              <Button onClick={() => this.newTask(this.taskNameInput.value)}>+</Button>
+              <Button
+                onClick={() => this.newTask(this.taskNameInput.value)}
+              >
+                +
+              </Button>
             </InputGroup.Append>
           </InputGroup>
           {this.renderTaskList()}
         </Card.Body>
       </Card>
-    );
-  }
-}
-
-export class Task extends Component {
-  render() {
-    return (
-      <InputGroup className="mb-3">
-        <FormControl
-          placeholder={this.props.taskName}
-          disabled
-        />
-        <InputGroup.Append>
-          <Button
-            onClick={this.props.onClick}
-            variant="outline-secondary"
-          >
-            Delete
-          </Button>
-        </InputGroup.Append>
-      </InputGroup>
     );
   }
 }
